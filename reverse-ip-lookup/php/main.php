@@ -83,7 +83,7 @@ class ReverseIpLookup {
     private function in_cache($url) {
         $key = md5($url);
 
-        if (file_exists($key)) {
+        if (file_exists(sprintf('cache/%s', $key))) {
             return explode("\n", file_get_contents($key));
         }
     }
