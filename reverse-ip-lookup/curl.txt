@@ -1,0 +1,18 @@
+curl 'https://domains.yougetsignal.com/domains.php' \
+  -H 'authority: domains.yougetsignal.com' \
+  -H 'accept: text/javascript, text/html, application/xml, text/xml, */*' \
+  -H 'accept-language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'content-type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'origin: https://www.yougetsignal.com' \
+  -H 'referer: https://www.yougetsignal.com/' \
+  -H 'sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' \
+  -H 'x-prototype-version: 1.6.0' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --data-raw 'remoteAddress=netshoes.com.br&key=&_=' \
+  --compressed
